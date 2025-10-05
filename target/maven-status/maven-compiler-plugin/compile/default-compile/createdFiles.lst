@@ -1,0 +1,5 @@
+servlets\JasperReportServlet.class
+servlets\SalesforceAccountReportFromBeanServlet.class
+servlets\LoginServlet.class
+servlets\LogoutServlet.class
+servlets\AccountBean.class

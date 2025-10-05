@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>Salesforce Connect</name>
+  <classpath>D:\Softwares\CData\CData JDBC Driver for Salesforce 2025\lib\cdata.jdbc.salesforce.jar</classpath>
+  <driver>cdata.jdbc.salesforce.SalesforceDriver</driver>
+  <username></username>
+  <password></password>
+  <url>jdbc:salesforce:InitiateOAuth=GETANDREFRESH;SecurityToken=fPDsXigWcaNY3Zo7zqPrpA7S;APIVersion=64.0;LoginURL=https://ability-ability-6845-dev-ed.scratch.my.salesforce.com/;AuthScheme=OAuth;UseSandbox=true</url>
+  <database></database>
+  <savePassword>true</savePassword>
+  <serverAddress></serverAddress>
+</jdbcDataAdapter>

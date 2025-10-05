@@ -22,4 +22,21 @@
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/LogoutServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>JasperReportServlet</servlet-name>
+    <servlet-class>servlets.JasperReportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JasperReportServlet</servlet-name>
+    <url-pattern>/jasper</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>JasperReportFromBean</servlet-name>
+    <servlet-class>servlets.SalesforceAccountReportFromBeanServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JasperReportFromBean</servlet-name>
+    <url-pattern>/jasperFromBean</url-pattern>
+  </servlet-mapping>
 </web-app>
